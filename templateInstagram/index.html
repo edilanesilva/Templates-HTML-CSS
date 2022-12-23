@@ -9,20 +9,18 @@
     <title>Instagram</title>
   </head>
   <body class="container">
-    <main class="content">
+    <main class="content-instagram">
       <section>
-        <div>
-          <img src="assets/img/celular.png" alt="celular" />
-        </div>
+        <img src="assets/img/celular.png" alt="celular" />
       </section>
       <section>
-        <div class="box-instagram">
-          <div class="wrapper-insta">
+        <div class="instagram-login">
+          <div class="group">
             <div class="logo-insta">
-              <img src="assets/img/icones/logo.PNG" alt="logo instagram" />
+              <img src="assets/img/icones/logo.png" alt="logo instagram" />
             </div>
 
-            <form method="POST">
+            <form method="POST" class="form-login">
               <input
                 class="input-login"
                 type="text"
@@ -31,27 +29,33 @@
 
               <input class="input-login" type="password" placeholder="Senha" />
               <input type="submit" value="Entrar" class="input-btn" />
-
-              <div>
-                <span>OU</span>
-                <div class="wrapper-login">
-                  <img
-                    class="icon-facebook"
-                    src="assets/img/icones/facebook.png"
-                    alt="logo facebook"
-                  />
-                  <span class="login-facebook">Entrar com o Facebook</span>
-                </div>
-                <a href="#">Esqueceu a senha?</a>
-              </div>
             </form>
+            <span>OU</span>
+            <div class="login-facebook">
+              <img
+                class="icon-facebook"
+                src="assets/img/icones/facebook.png"
+                alt="logo facebook"
+              />
+              <p>Entrar com o Facebook</p>
+              >
+
+              <a href="#">Esqueceu a senha?</a>
+            </div>
           </div>
 
-          <div>
+          <div class="group">
             <p>
               Nao tem conta?
               <a href="#">Cadastre-se</a>
             </p>
+          </div>
+        </div>
+        <div class="get-the-app">
+          <p>Obtenha o aplicativo</p>
+          <div class="download">
+            <a href="#" class="app-download"></a>
+            <a href="#" class="app-download"></a>
           </div>
         </div>
       </section>
