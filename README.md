@@ -1,4 +1,4 @@
-# Templates HTML / CSS
+# Templates HTML - CSS
 
 ## Inspirações 
 
