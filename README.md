@@ -1,4 +1,4 @@
-# Templates HTML - CSS
+# Templates HTML - CSS :desktop_computer:
 
 <p>Repositorio criado para armazenar modelos de site utilizando HTML e CSS</p>
 
