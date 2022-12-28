@@ -2,7 +2,7 @@
 
 # Templates HTML - CSS : :owl:
 
-<p> Recriando layouts em HTML e CSS para praticar.:rocket: : </p>
+<p> Recriando layouts em HTML e CSS .:rocket: : </p>
 
 ## Referências 
 
