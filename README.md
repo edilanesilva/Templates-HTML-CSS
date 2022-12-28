@@ -1,6 +1,6 @@
 ![GitHub](https://img.shields.io/github/license/edilanesilva/Templates-HTML-CSS)
 
-# Templates HTML - CSS : :owl:
+# Templates HTML - CSS  :owl:
 
 <p> Recriando layouts em HTML e CSS .:rocket: : </p>
 
