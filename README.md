@@ -1,9 +1,8 @@
 ![GitHub](https://img.shields.io/github/license/edilanesilva/Templates-HTML-CSS)
 
-# Templates HTML - CSS :desktop_computer: :owl:
+# Templates HTML - CSS : :owl:
 
-<p> Recriando layouts em HTML e CSS para colocar em ação a teoria. <br> 
- Links uteis para estudos :rocket: : </p><br>
+<p> Recriando layouts em HTML e CSS para praticar.:rocket: : </p>
 
 ## Referências 
 
