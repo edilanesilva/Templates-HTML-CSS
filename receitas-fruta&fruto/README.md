@@ -1,4 +1,4 @@
-# Arquitetura-CSS
+# Vitrine de receitas 
 
 <p>Curso de arquitetura CSS da Alura. <br>
 </p>
