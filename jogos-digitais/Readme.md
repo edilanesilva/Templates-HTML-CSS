@@ -7,5 +7,5 @@
 - Grid Layout
 - BEM
 
-<h4>Demonstração </h4>
+<h4>Protótipo </h4>
 <img src="/prototipo.pdf">
