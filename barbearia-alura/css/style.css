@@ -1,0 +1,351 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background: #bbbbbb;
+  padding: 20px 0;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.produtos li:hover {
+  border-color: #c78c19;
+}
+
+.produtos li:active {
+  border-color: #088c19;
+}
+
+.produtos li:hover h2 {
+  font-size: 34px;
+}
+
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produto-descricao {
+  font-size: 18px;
+}
+
+.produto-preco {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background: url(/img/bg.jpg);
+  padding: 40px 0;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px 0 0;
+}
+
+form {
+  margin: 40px 20px;
+}
+
+form label,
+form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background: darkorange;
+  transform: scale(1.2);
+}
+
+table {
+  margin: 20px 20px 40px;
+}
+
+thead {
+  background: #555555;
+  color: white;
+  font-weight: bold;
+}
+
+td,
+th {
+  border: 1px solid #000000;
+  padding: 8px 15px;
+}
+
+/* css da pagina inicial */
+
+.banner {
+  width: 100%;
+}
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2em; /* tamanho do titulo terá o dobro da fonta base */
+  margin: 0 0 1em; /* espaço proporcional ao tamanho da fonte */
+  clear: left; /* limpa o float adicionado na img acima */
+  color: rgba(
+    0,
+    0,
+    0,
+    0.3
+  ); /* Com CSS 3, podemos utilizar mais uma camada - a de opacidade, chamada alfa - nas cores em RGB. Para tanto, utilizamos o rgbae então definir os valores que quisermos. */
+}
+
+/* .titulo-principal:first-letter {
+    font-weight: bold; define a primeira letra do titulo */
+
+/* p:first-line {
+    font-style: italic;
+} configura a primeira linha em italico */
+
+/* .titulo-principal:before(antes) - criam um espaço, onde o css pode ser usado antes do elemento{
+    content: "[";
+}
+
+.titulo-principal:after {
+    content:"]"
+} */
+
+.principal {
+  padding: 3em 0;
+  background: #fefefe;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.principal p {
+  margin: 0 0 1em;
+}
+
+.principal strong {
+  font-weight: bold;
+}
+
+.principal em {
+  font-style: italic;
+}
+
+.utensilios {
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.mapa {
+  padding: 3em 0;
+  background: linear-gradient(#fefefe, #888888);
+  /* background: linear-gradient(45deg- inclinação das cores, orange, blue, red, black); */
+}
+
+.mapa-conteudo {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.mapa p {
+  margin: 0 0 2em;
+  text-align: center;
+}
+
+.beneficios {
+  padding: 3em 0;
+  background: #888888;
+}
+
+.conteudo-beneficios {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.lista-beneficios {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.itens {
+  line-height: 1.5;
+}
+
+.itens:before {
+  content: "🟊"; /* simbolo do site unicode */
+}
+
+/* .itens:last-child -  trata o ultimo elemento da lista*/
+/* nth-child(4) / nth-child(2n) -  trata o quarto elemento da lista e seleciona cada segundo elemento entre qualquer grupo de irmãos*/
+.itens:first-child {
+  /* trata o primeiro elemento da lista */
+  font-weight: bold;
+}
+
+.imagem-beneficios {
+  width: 60%;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px #000000; /* adiciona sombra a imagem */
+}
+.imagem-beneficios:hover {
+  opacity: 0.3;
+}
+
+.video {
+  width: 560px;
+  margin: 2em auto;
+}
+
+/* responsivo */
+
+@media screen and (max-width: 480px) {
+  .caixa,
+  .principal,
+  .conteudo-beneficios,
+  .mapa-conteudo,
+  .video {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .lista-beneficios,
+  .imagem-beneficios {
+    width: 100%;
+  }
+}
+
+/* 
+seletores avançados
+* Com os seletores avançados do CSS,podemos selecionar os filhos diretos de <main>, para tanto, utilizaremos o sinal [ > ],
+e todo os outros parágrafos serão ignorados, afinal são filhos diretos da <section> e não de <main>.
+
+main > p { 
+    background: red; 
+} 
+*/
+
+/*
+ Mas como selecionar o primeiro parágrafo que sucede uma imagem, por exemplo? 
+Conseguimos selecionar o primeiro filho com o seletor que acabamos de conhecer, mas neste caso estamos falando do primeiro irmão que vem depois de um elemento.
+
+Neste caso, usamos img como elemento âncora e para o primeiro irmão usamos o sinal de "+" 
+
+img + p { 
+    background: blue;
+	*/
+
+/* Para selecionar todos os parágrafos localizados depois de uma imagem usamos o seletor ~
+
+img ~ p {
+    background: yellow
+} 
+ */
+
+/* 
+ No CSS podemos, inclusive, excluir itens específicos. Se quisermos excluir todos os parágrafos que não compõe missao, escreveremos:
+
+ .principal p:not(#missao) {
+    background: orange;
+}
+  */
+
+/* sombras internas- box-shadow e se chama inset.
+
+  .beneficios {
+    padding: 3em 0;
+    background: #888888;
+    box-shadow: inset 0 0 30px #FF0000;
+}
+   */
+
+/* 
+   .titulo-principal {
+    text-align: center;
+    font-size: em;
+    margin: 0 0 1em;
+    clear: left;
+    text-shadow: 2px 2px #FF0000; 
+}
+    */
