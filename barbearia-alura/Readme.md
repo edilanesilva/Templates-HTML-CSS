@@ -12,7 +12,5 @@
 - [Position](https://www.w3schools.com/cssref/pr_class_position.php)
 - [Responsividade](https://www.w3schools.com/css/css_rwd_intro.asp)
 
-<h2>Prototipo</h2>
-
-
+<h2>Protótipo</h2>
 
