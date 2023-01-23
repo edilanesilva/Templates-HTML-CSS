@@ -16,3 +16,6 @@
 
 <h2>O Projeto</h2>
 
+<img src="img/pagfinal-home.png">
+<img src="img/pagfinal-produtos.png">
+<img src="img/pagfinal-contatos.png">
